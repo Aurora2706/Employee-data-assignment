@@ -1,0 +1,44 @@
+# Employee Salary Data Processing Assignment
+
+Submitted by: Bobmanuel Ibiba Elizabeth 
+Date: 18th February 2026
+
+# Overview
+
+Jupyter Notebook and R script solution for the employee salary data processing assignment using the provided `employee data.xlsx`.
+
+# Files
+
+- `employee_salary.ipynb` --- main notebook
+- `employee data.xlsx`   --- input data (provided)
+- `Employee Profile.zip`  --- zipped employee profiles (generated)
+- `unzip_and_view_profiles.R` ---- R script to unzip & display
+- `README.md`  --- this file
+
+# Instructions for Using the Code
+
+# Python (Jupyter Notebook)
+
+1. Ensure `employee data.xlsx` is in the same directory as the notebook.
+2. Install required libraries if needed: `pip install pandas openpyxl` (for MsExcel).
+3. Open `employee_salary.ipynb` in Jupyter Notebook or VS Code.
+4. Run all cells sequentially from top to bottom.
+   - It will load the data, create the dictionary, test the function, export sample employee CSVs, and create the zip file.
+5. Outputs:
+   - Printed messages and data previews.
+   - Generated files: `Employee Profile` folder, `Employee Profile.zip`, and `unzip_and_view_profiles.R`.
+6. Customize:
+   - Change `employees_to_export` list in cell 5 to export different employees.
+   - The function handles names case-insensitively and suggests similar names on error.
+
+# R 
+
+1. Ensure `Employee Profile.zip` is in the working directory.
+2. Install R if not already ( use Rstduio).
+3. Run the script:
+   - In terminal: `Rscript unzip_and_view_profiles.R`
+   - Or open in RStudio, set working directory, and source the file.
+4. Output:
+   - Unzips to `Employee_Profile_Unzipped`.
+   - Prints contents of each CSV file.
+
